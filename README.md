@@ -18,13 +18,13 @@ _ita test 2_
 
 _ita test
  2_
-```
+```Python
  def foo():
     if not bar:
         return True
 ```
 
-```
+```python
    def foo():
     if not bar:
         return True
