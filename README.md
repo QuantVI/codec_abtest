@@ -1,14 +1,10 @@
 # How would you describe ...
 
 ## - Linked Lists
-
-## Stacks
-
-## Hash Maps
-
-## Trees
-
-## Heaps
+## - Stacks
+## - Hash Maps
+## - Trees
+## - Heaps
 
 
 
