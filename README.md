@@ -1,9 +1,9 @@
 # How would you describe ...
-
-## - Linked Lists
-## - Stacks
-## - Hash Maps
-## - Trees
+ 
+- ## Linked Lists
+- ## Stacks
+-## Hash Maps
+- ## Trees
 ## - Heaps
 
 
