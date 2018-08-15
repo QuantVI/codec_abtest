@@ -1,9 +1,18 @@
 # How would you describe ...
 
-[printer image link](https://github.com/QuantVI/codec_abtest/blob/master/espon%20stock%20phto.png)
+## Linked Lists
 
-![printer image](https://github.com/QuantVI/codec_abtest/blob/master/espon%20stock%20phto.png)
-Format: ![Epson Workforce 315](https://github.com/QuantVI/codec_abtest/blob/master/espon%20stock%20phto.png)
+## Stacks
 
-## auto link
-https://github.com/QuantVI/codec_abtest/blob/master/espon%20stock%20phto.png
+## Hash Maps
+
+## Trees
+
+## Heaps
+
+
+
+* ita test *
+_ ita test 2 _
+_ita test
+ 2_
