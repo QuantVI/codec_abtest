@@ -32,4 +32,6 @@ _ita test
 
 <del>tags</del>
 
-```<font color="red">blue</font>```
+```html
+<font color="red">blue</font>
+```
