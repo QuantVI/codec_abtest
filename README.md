@@ -32,4 +32,4 @@ _ita test
 
 <del>tags</del>
 
-<font color="red">blue</font>
+<color="red">blue</color>
