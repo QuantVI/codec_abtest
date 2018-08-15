@@ -2,7 +2,7 @@
 
 - ## Linked Lists
  A structure where each element has at least two parts
-   - Parts
+   - Parts  
     - 1. the value of the element
     - 2. the "link" (also know as a pointer) to either the next element, or an indicator for the end of the list (e.g NULL)
   - Extra
