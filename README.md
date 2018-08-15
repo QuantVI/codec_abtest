@@ -1,6 +1,6 @@
 # How would you describe ...
 
-## Linked Lists
+## - Linked Lists
 
 ## Stacks
 
