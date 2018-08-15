@@ -31,4 +31,5 @@ _ita test
 
 
 <del>tags</del>
-<red>blue</red>
+
+<font color='red'>blue</font>
