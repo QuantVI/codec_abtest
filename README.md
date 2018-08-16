@@ -3,62 +3,50 @@
 - ## Linked Lists
 ### A structure where each element has at least two parts
 - Parts
-  - 1. the value of the element
-  - 2. the "link" (also know as a pointer) to either the next element, or an indicator for the end of the list (e.g NULL)  
+  - 1. the `value` of the element
+  - 2. The `link` (also know as a pointer) which
+    - _either_ points to the next element, 
+    - _or_ points to an indicator for the end of the list (e.g `NULL`)  
 Extra
-  - Since each list element points to a subsequent one, a linked list doesn't need sequential memory space.
-  - Retrieving any but the first items in the list, require traversing the list from the beginning to find that item.
+  - Since each list element points to the next, a linked list doesn't need sequential memory space.
+  - Retrieving any but the first item in the list, requires traversing the list from the beginning, to find that item.
 
 - ## Stacks
-### Work exactly how they sound: You can only add (push) items to the "top" (end) of the stack. You only remove (pop) items from top (end) of the stack. Newly added items are dealt with first - called Last-In-First-Out order. To get to the oldest items (items that were pushed first), you must remove one by one, from the top of the stack. The pointer always points the most recent item in the stack.
+### Work exactly how they sound: You can only add (`push`) items to the "top" (end) of the stack. You only remove (`pop`) items from top (end) of the stack. 
+- Properties
+  - Newly added items are dealt with first: called Last-In-First-Out order. 
+  - To get to the oldest items (items that were `pushed` first), you must remove one by one, from the top of the stack. 
+  - The pointer always points the most recent item in the stack.
 
 - ## Hash Maps
-### Match or map a key, like "Elon Musk"; to a value, like "Tesla". A hash map is like a sandwich. In between the key and the value, is the hash value/hash function. Every key-value pair, has its own hash between it.
+### Match or `map` a `key`, like "Elon_Musk"; to a `value`, like "Tesla". 
+####A hash map is like a sandwich. Between the key and value, is the hash-value/hash function. Every key-value pair, has its own _hash_ between it.
 - **Ideal** situation
-  - Every key maps to exactly one value.
-  - Keys in the hashmap are unique.
-- Ideal example (Python)
-  - `{"Elon Musk": "Tesla", "Steve Ballmer" : "Microsoft",
-  	  "Satya Nadella": "Microsoft"}`
+  - Every `key` maps to exactly one `value`.
+  - Keys in the hash map are unique.
+- Example (Python)
+  - `{"Elon_Musk": "Tesla", "Steve_Ballmer" : "Microsoft",
+  	  "Satya_Nadella": "Microsoft"}`
 - Extra
   - A hash function may not provide a unique value for every key.
   - A value is accessed/retrieved by its key.
 
 - ## Trees
-### Similar to Linked Lists, Trees are structures where each element has two parts
+### A nested structure, where each element/node has two parts
 - Parts
-  - 1. Node : holds the value of the element
-  - 2. Branches : Links, possibly NULL, that point to subsequent elements
+  - 1. the `value` of the node
+  - 2. the `branches` - links to subsequent nodes
 - Properties
-  - 1. In a tree, every element has a fixed, maximum number of branches
-  - 2. For example in a binary tree, elements can have a max of 2 branches
-  - 3. The element that is no a branch of any other is called the parent node
-  - 4. Branches of an element are called child nodes
+  - 1. Every node has a fixed, maximum number of branches.
+  - 2. The node that is not a branch, is the root node.
+  - 3. Branches nodes are "childen" of their parent node.
+  - 4. Any search for any value starts at the root node.
+- Example
+  - In a binary tree, nodes can have a max of 2 branches.
 
 - ## Heaps
-
-
-
-*ita test*
-
-_ita test 2_
-
-_ita test
- 2_
-```Python
- def foo():
-    if not bar:
-        return True
-```
-
-```python
-   def foo():
-    if not bar:
-        return True
-```
-
-<del>tags</del>
-
-```html
-<font color="red">blue</font>
-```
+### A Tree in which the value of every parent node is either the maximum or minimum of all of the child nodes (and their children, etc) connect to that parent.
+- Example
+  - a. If a parent node has a value of 255, in a `Max value heap`, then its child nodes can have value 255 or less. 
+  - b. If a parent node has a value of 255. in a `Min value heap`, then its child nodes can only have values of 255 or more.
+  - Th
