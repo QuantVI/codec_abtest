@@ -39,14 +39,14 @@ Extra
 - Properties
   - 1. Every node has a fixed, maximum number of branches.
   - 2. The node that is not a branch, is the root node.
-  - 3. Branches nodes are "childen" of their parent node.
+  - 3. Branches nodes are "children" of their parent node.
   - 4. Any search for any value starts at the root node.
 - Example
   - In a binary tree, nodes can have a max of 2 branches.
 
 - ## Heaps
-### A Tree in which the value of every parent node is either the maximum or minimum of all of the child nodes (and their children, etc) connect to that parent.
-- Example
-  - a. If a parent node has a value of 255, in a `Max value heap`, then its child nodes can have value 255 or less. 
-  - b. If a parent node has a value of 255. in a `Min value heap`, then its child nodes can only have values of 255 or more.
-  - Th
+### A Tree where the value of every parent node is the maximum or minimum of all of child nodes (and their children, etc.) connected to that parent.
+- Examples
+  - `Max value heap`: A parent node has value 255. Its child nodes must have values 255 or less. Parent holds the max value.
+  - `Min value heap`: A parent node has value 255. Its child nodes must have values 255 or more. Parent holds the min value.
+  - The "equal or more/less" rule, applies to every node, not just the parent.
