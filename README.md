@@ -10,7 +10,7 @@
   - 2. The `link` (also know as a pointer) which
     - _either_ points to the next element, 
     - _or_ points to an indicator for the end of the list (e.g `NULL`)  
-Extra
+- Extra
   - Since each list element points to the next, a linked list doesn't need sequential memory space.
   - Retrieving any but the first item in the list, requires traversing the list from the beginning, to find that item.
 
