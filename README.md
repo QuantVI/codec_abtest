@@ -13,6 +13,7 @@ Extra
   - Since each list element points to the next, a linked list doesn't need sequential memory space.
   - Retrieving any but the first item in the list, requires traversing the list from the beginning, to find that item.
 
+#
 - ## Stacks
 ### Work exactly how they sound: You can only add (`push`) items to the "top" (end) of the stack. You only remove (`pop`) items from top (end) of the stack. 
 - Properties
@@ -20,6 +21,7 @@ Extra
   - To get to the oldest items (items that were `pushed` first), you must remove one by one, from the top of the stack. 
   - The pointer always points the most recent item in the stack.
 
+#
 - ## Hash Maps
 ### Match or `map` a `key`, like "Elon_Musk"; to a `value`, like "Tesla". 
 ####A hash map is like a sandwich. Between the key and value, is the hash-value/hash function. Every key-value pair, has its own _hash_ between it.
@@ -33,6 +35,7 @@ Extra
   - A hash function may not provide a unique value for every key.
   - A value is accessed/retrieved by its key.
 
+#
 - ## Trees
 ### A nested structure, where each element/node has two parts
 - Parts
@@ -46,6 +49,7 @@ Extra
 - Example
   - In a binary tree, nodes can have a max of 2 branches.
 
+#
 - ## Heaps
 ### A Tree where the value of every parent node is the maximum or minimum of all of child nodes (and their children, etc.) connected to that parent.
 - Examples
