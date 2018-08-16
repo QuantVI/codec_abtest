@@ -1,5 +1,7 @@
 # How would you describe ...
 
+##### *[PDF Version](https://github.com/QuantVI/codec_abtest/blob/master/Data%20Structure%20Definitions.pdf)*
+
 - ## Linked Lists
 ### A structure where each element has at least two parts
 - Parts
