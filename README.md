@@ -2,6 +2,7 @@
 
 ##### *[PDF Version](https://github.com/QuantVI/codec_abtest/blob/master/Data%20Structure%20Definitions.pdf)*
 
+#
 - ## Linked Lists
 ### A structure where each element has at least two parts
 - Parts
@@ -23,7 +24,7 @@ Extra
 
 #
 - ## Hash Maps
-### Match or `map` a `key`, like "Elon_Musk"; to a `value`, like "Tesla". 
+### Match or `map` a _key_, like "Elon_Musk"; to a _value_, like "Tesla".  
 ####A hash map is like a sandwich. Between the key and value, is the hash-value/hash function. Every key-value pair, has its own _hash_ between it.
 - **Ideal** situation
   - Every `key` maps to exactly one `value`.
