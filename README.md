@@ -49,4 +49,4 @@ Extra
 - Examples
   - `Max value heap`: A parent node has value 255. Its child nodes must have values 255 or less. Parent holds the max value.
   - `Min value heap`: A parent node has value 255. Its child nodes must have values 255 or more. Parent holds the min value.
-  - The "equal or more/less" rule, applies to every node, not just the parent.
+  - The "greater/less than or equal to" rule, applies to every node, not just the parent.
